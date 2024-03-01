@@ -14,16 +14,24 @@
 <body>
     <div class="container">
         <header>
-            <h1>Welcome to My Website</h1>
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="images/froegOutlineThin.png" alt="logo"></a>
+                </div>
+                <h1>Welcome to My Website</h1>
+            </div>
         </header>
         <div class="navmain">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <nav class="sidebar">
+                <header>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Projet</a></li>
+                        <li><a href="#">Téléchargements</a></li>
+                        <li><a href="#">Equipe</a></li>
+                    </ul>
+                    <box-icon name='menu'></box-icon>
+                </header>
             </nav>
             <main>
                 <section class="content">
@@ -34,7 +42,9 @@
             </main>
         </div>
         <footer>
-            <p>&copy; 2024 My Website. All rights reserved.</p>
+            <div class="footer">
+                <p>&copy; 2024 My Website. All rights reserved.</p>
+            </div>
         </footer>
     </div>
 

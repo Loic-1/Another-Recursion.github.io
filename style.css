@@ -8,6 +8,7 @@ body {
     outline: auto;
     /*outline-color: magenta;*/
     background-color: teal;
+    /*cursor: url('images/froegOutlineThin.png'), auto;*/
 }
 
 header,
@@ -16,6 +17,15 @@ main,
 footer {
     outline: auto;
     background-color: magenta;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    height: 100px;
 }
 
 .container {
@@ -27,6 +37,18 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.navmain nav {
+    flex: 1;
+}
+
+.navmain main {
+    flex: 3;
+}
+
+.footer {
+    display: flex;
 }
 
 .box {
