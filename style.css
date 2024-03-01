@@ -6,8 +6,21 @@ body {
     margin: 0;
     overflow: hidden;
     outline: auto;
-    /*outline-color: magenta;
-    background-color: teal;*/
+    /*outline-color: magenta;*/
+    background-color: teal;
+}
+
+header,
+nav,
+main,
+footer {
+    outline: auto;
+    background-color: magenta;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
 }
 
 .box {
