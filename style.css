@@ -1,12 +1,16 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
-  margin: 0;
-  overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    outline: auto;
+    /*outline-color: magenta;
+    background-color: teal;*/
 }
 
 .box {
-  display: block;
+    display: block;
+    border-block-color: black;
 }
