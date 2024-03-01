@@ -23,6 +23,12 @@ footer {
     padding: 10px;
 }
 
+.navmain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .box {
     display: block;
     border-block-color: black;
