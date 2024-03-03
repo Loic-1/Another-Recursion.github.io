@@ -36,17 +36,48 @@ footer {
     width: 100%;
 }
 
-.navmain nav {
+.navmain main {
+    flex: 3;
+}
+
+#text {
+    transition: opacity 0.5s;
+}
+
+.sidebar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    flex: 1;
+    transition: flex 0.3s ease;
+    overflow: hidden;
+}
+
+.sidebar.collapsed {
+    flex: 0.3;
+}
+
+main.collapsed {
     flex: 1;
 }
 
-.navmain main {
-    flex: 3;
+.sidebar.collapsed a {
+    width: 0;
+    opacity: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 .footer {
     display: flex;
 }
+
+
+/**/
 
 .box {
     display: block;
