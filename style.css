@@ -9,7 +9,14 @@ body {
     outline: auto;
     /*outline-color: magenta;*/
     background-color: teal;
-    /*cursor: url('images/froegOutlineThin.png'), auto;*/
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+:root {
+    --nav-bg-color: grey;
+    /* Define a CSS variable for the navigation background color */
+    --nav-bg-color-dark: rgba(128, 128, 128, 0.7);
 }
 
 header,
@@ -17,7 +24,7 @@ nav,
 main,
 footer {
     outline: auto;
-    background-color: magenta;
+    background-color: var(--nav-bg-color);
 }
 
 .header {
@@ -54,7 +61,7 @@ footer {
 }
 
 .sidebar.collapsed {
-    flex: 0.3;
+    flex: 0.1;
 }
 
 main.collapsed {
@@ -66,10 +73,52 @@ main.collapsed {
     opacity: 0;
 }
 
-.sidebar ul {
+.sidebar {
     display: flex;
     flex-direction: column;
+}
+
+.sidebar ul {
     list-style-type: none;
+}
+
+.sidebar li {
+    outline: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar.collapsed li {
+    outline: none;
+}
+
+.sidebar li:hover {
+    filter: brightness(0.7);
+    background-color: var(--nav-bg-color-dark);
+}
+
+.sidebar a {
+    /*
+    display: flex;
+    justify-content: flex-end;*/
+    text-decoration: none;
+}
+
+#toggleButton {
+    background-color: var(--nav-bg-color);
+    height: fit-content;
+    width: auto;
+}
+
+#toggleButton:hover {
+    cursor: pointer;
+}
+
+.bx i {
+    height: 50px;
 }
 
 .footer {
