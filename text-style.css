@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/runescape_bold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', 'Franklin Gothic Medium';
+    font-size: large;
+}
