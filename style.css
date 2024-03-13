@@ -9,14 +9,14 @@ body {
     outline: auto;
     /*outline-color: magenta;*/
     background-color: teal;
-    background-color: #DFDBE5;
-    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #eccadc;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23dbb1bc' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 :root {
-    --nav-bg-color: grey;
+    --nav-bg-color: #1a237e;
     /* Define a CSS variable for the navigation background color */
-    --nav-bg-color-dark: rgba(128, 128, 128, 0.7);
+    --nav-bg-color-dark: #1a237e;
 }
 
 header,
@@ -45,6 +45,8 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .navmain main {
@@ -111,6 +113,7 @@ main.collapsed {
     justify-content: flex-end;*/
     text-decoration: none;
     outline: auto;
+    outline-color: #333333;
     padding: 5px;
 }
 
@@ -134,10 +137,21 @@ main.collapsed {
 
 .footer {
     display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer img {
+    height: 100px;
+    width: auto;
+}
+
+.footer img:hover {
+    opacity: 0.8;
 }
 
 
-/**/
+/*#087E8B*/
 
 .box {
     display: block;

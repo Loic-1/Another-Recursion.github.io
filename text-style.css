@@ -3,7 +3,40 @@
     src: url('fonts/runescape_bold.ttf') format('truetype');
 }
 
+:root {
+    --body-font-color: #add8e6;
+    /* Define a CSS variable for the navigation background color */
+    --a-font-color: lightyellow;
+}
+
 body {
     font-family: 'CustomFont', 'Franklin Gothic Medium';
     font-size: large;
+}
+
+h1,
+h2 {
+    color: var(--body-font-color);
+}
+
+p {
+    color: var(--body-font-color);
+}
+
+.sidebar a {
+    color: var(--a-font-color);
+}
+
+.sidebar a:visited {
+    text-decoration: none;
+    color: var(--a-font-color)
+}
+
+.footer a {
+    color: var(--a-font-color);
+}
+
+.footer a:visited {
+    text-decoration: none;
+    color: var(--a-font-color);
 }
