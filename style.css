@@ -107,8 +107,7 @@ main.collapsed {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -154,6 +153,7 @@ main.collapsed {
 
 #toggleButton:hover {
     cursor: pointer;
+    filter: brightness(0.9);
 }
 
 .bx i {
