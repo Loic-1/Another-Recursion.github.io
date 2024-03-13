@@ -17,6 +17,7 @@ body {
     --nav-bg-color: #1a237e;
     /* Define a CSS variable for the navigation background color */
     --nav-bg-color-dark: #1a237e;
+    --height: 20px;
 }
 
 header,
@@ -34,6 +35,19 @@ main {
 .header {
     display: flex;
     flex-direction: row;
+}
+
+.header .logo:hover {
+    filter: brightness(0.9);
+}
+
+.header h1 {
+    /*
+    outline: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .container {
@@ -67,7 +81,7 @@ main {
 }
 
 .sidebar.collapsed {
-    flex: 0.1;
+    flex: 0.2;
 }
 
 main.collapsed {
@@ -103,7 +117,7 @@ main.collapsed {
 }*/
 
 .sidebar a:hover {
-    filter: brightness(0.7);
+    filter: brightness(0.8);
     background-color: var(--nav-bg-color-dark);
 }
 
@@ -117,6 +131,10 @@ main.collapsed {
     padding: 5px;
 }
 
+.sidebar a img {
+    height: var(--height);
+}
+
 .sidebar.collapsed a {
     outline: none;
 }
@@ -125,6 +143,13 @@ main.collapsed {
     background-color: var(--nav-bg-color);
     height: fit-content;
     width: auto;
+}
+
+#toggleButton img {
+    height: 50px;
+    width: auto;
+    /*
+    outline: auto;*/
 }
 
 #toggleButton:hover {
@@ -142,12 +167,12 @@ main.collapsed {
 }
 
 .footer img {
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 
 .footer img:hover {
-    opacity: 0.8;
+    filter: brightness(0.8);
 }
 
 
