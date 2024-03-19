@@ -6,7 +6,7 @@
 :root {
     --body-font-color: #add8e6;
     /* Define a CSS variable for the navigation background color */
-    --a-font-color: lightgreen;
+    --a-font-color: rgb(144, 238, 144);
 }
 
 body {
