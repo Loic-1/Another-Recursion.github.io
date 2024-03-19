@@ -40,3 +40,18 @@ p {
     text-decoration: none;
     color: var(--a-font-color);
 }
+
+
+/*Downloads*/
+
+.downloadsMain a {
+    text-decoration: none;
+    color: var(--a-font-color);
+}
+
+.downloadsMain a:hover {
+    filter: brightness(0.8);
+}
+
+
+/**/

@@ -147,8 +147,6 @@ main.collapsed {
 #toggleButton img {
     height: 50px;
     width: auto;
-    /*
-    outline: auto;*/
 }
 
 #toggleButton:hover {
@@ -174,6 +172,40 @@ main.collapsed {
 .footer img:hover {
     filter: brightness(0.8);
 }
+
+
+/*Downloads*/
+
+.downloadsMain {
+    outline: auto;
+}
+
+.downloadsMain a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+/**/
+
+
+/*EQUIPE*/
+
+.equipeMain {
+    display: flex;
+    flex-direction: column;
+    outline: auto;
+}
+
+.equipeMain img {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+
+/*EQUIPE*/
 
 
 /*#087E8B*/
