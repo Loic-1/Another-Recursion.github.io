@@ -36,6 +36,12 @@ main {
     flex-direction: row;
 }
 
+.header .logo img {
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+}
+
 .header .logo:hover {
     filter: brightness(0.9);
 }
@@ -172,6 +178,19 @@ main.collapsed {
 .footer img:hover {
     filter: brightness(0.8);
 }
+
+
+/*PROJET*/
+
+.gif {
+    width: 30%;
+    height: auto;
+    outline: auto;
+    outline-color: white;
+}
+
+
+/**/
 
 
 /*Downloads*/
