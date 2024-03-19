@@ -205,6 +205,18 @@ main.collapsed {
     margin: 10px;
 }
 
+.equipeMain img:hover {
+    cursor: pointer;
+}
+
+.thomas,
+.thom,
+.edgar,
+.loic,
+.asmae {
+    display: flex;
+}
+
 
 /*EQUIPE*/
 
