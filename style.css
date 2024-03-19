@@ -217,6 +217,15 @@ main.collapsed {
     display: flex;
 }
 
+.thomas p,
+.thom p,
+.edgar p,
+.loic p,
+.asmae p {
+    display: flex;
+    align-items: center;
+}
+
 
 /*EQUIPE*/
 
