@@ -180,9 +180,38 @@ main.collapsed {
 }
 
 
+/*ACCUEIL*/
+
+.robot {
+    width: 10%;
+    height: auto;
+}
+
+.robotContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/**/
+
+
 /*PROJET*/
 
+.imagesProjet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .gif {
+    width: 30%;
+    height: auto;
+    outline: auto;
+    outline-color: white;
+}
+
+.robotPurple {
     width: 30%;
     height: auto;
     outline: auto;
@@ -199,7 +228,8 @@ main.collapsed {
 /*
 .downloadsMain {
     outline: auto;
-}*/
+}
+*/
 
 .downloadsMain a {
     display: flex;
@@ -219,7 +249,7 @@ main.collapsed {
 }
 
 .equipeMain img {
-    width: 40%;
+    width: 30%;
     height: auto;
     margin: 10px;
 }
