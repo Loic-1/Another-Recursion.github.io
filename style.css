@@ -198,10 +198,44 @@ main.collapsed {
 
 /*PROJET*/
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 8px;
+    text-align: left;
+}
+
+td,
+th {
+    background-color: var(--nav-bg-color);
+}
+
+td,
+th {
+    color: white;
+}
+
+tr {
+    max-width: 10px;
+}
+
+.projetLinks a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
 .imagesProjet {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 10px;
 }
 
 .gif {

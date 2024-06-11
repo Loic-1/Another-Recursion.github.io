@@ -44,6 +44,23 @@ p {
 }
 
 
+/*PROJECT*/
+
+.projectLinks a {
+    text-decoration: none;
+    color: var(--a-font-color);
+}
+
+.projectLinks a:hover {
+    filter: brightness(0.8);
+}
+
+.projectLinks a:visited {
+    text-decoration: none;
+    color: var(--a-font-color);
+}
+
+
 /*Downloads*/
 
 .downloadsMain a {
