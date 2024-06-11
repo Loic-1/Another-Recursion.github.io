@@ -7,14 +7,16 @@ body {
     /*overflow: hidden;*/
     overflow: auto;
     outline: auto;
-    background-color: #19181D;
+    /*background-color: #19181D;*/
+    background-color: lightblue;
 }
 
 :root {
-    /*--nav-bg-color: #1a237e;*/
-    --nav-bg-color: #131213;
+    /*--nav-bg-color: #131213;*/
+    --nav-bg-color: #3498db;
     /* Define a CSS variable for the navigation background color */
-    --nav-bg-color-dark: #0e0d0e;
+    /*--nav-bg-color-dark: #0e0d0e;*/
+    --nav-bg-color-dark: #3498db;
     --height: 20px;
 }
 
@@ -181,6 +183,10 @@ main.collapsed {
 
 
 /*ACCUEIL*/
+
+#banniere img {
+    width: 100%;
+}
 
 .robot {
     width: 10%;
