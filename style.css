@@ -9,6 +9,7 @@ body {
     outline: auto;
     /*background-color: #19181D;*/
     background-color: lightblue;
+    cursor: url('images/froegOutlineThin1718464759.cur');
 }
 
 :root {
