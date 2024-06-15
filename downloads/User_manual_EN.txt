@@ -1,0 +1,75 @@
+## **Usage**
+
+Welcome to this Another Recursion user manual.
+This manual will detail all the knowledge necessary to use and understand this application.
+
+If the game is not installed, please refer to the document "Installation Manual.txt"
+
+## **Firewall Message and Administrator Function**
+
+In the case of use with Windows, it is possible that a window opens asking you for administrator rights or to open certain firewall ports, if it is not given or opened respectively, the player on this computer will not be able to access the "Create" option which allows you to create a hosting room.
+
+## **Orders**
+
+All menus and mini-games in Another Recursion will use the commands listed below:
+
+- **Movement**: WASD 
+- **Jump**: Space
+- **Special Action**: Left mouse click
+
+
+## **Menus**
+
+Most menus operate as interactive buttons.
+It is only necessary to click on these buttons.
+
+However, some menus involve using the keyboard to enter text.
+
+## **Multiplayer**
+
+Another Recursion is an exclusively online multiplayer game, requiring players to be in gaming lobbies.
+
+Each player must first choose a color, which will allow them to differentiate it from the other.
+To do this, simply enter any name or pseudonym in the “Team Color” bar, or enter a specific color code.
+if desired.
+
+
+To create a room, press the “Create” button, you will obtain a code.
+This code must be given to your opponent, who will enter it in the “Lobby Code” bar, then press the Join button.
+Once, the 2 Players are in the same lobby (the creator will see the message "another player has joined the lobby" a second time, and the player who joins the lobby will see the "Start" button appear), they can start the game by pressing the "Start" button and choosing a specific mini-game to play, or playing "Random" mode which will cycle through random mini-games in succession.
+
+## **Games**
+
+The different mini-games offered by Another Recursion are very diverse, but revolve around the same 6 keys: 
+
+- **Mini-Game 1-1**: Use A and D respectively to go left and right
+		     Use Space to jump
+		     The goal is to reach the finish, located high up, before your opponent, but certain enemies will block your path.
+
+- **Mini-Game 1-2**: Use W and S to move forward and backward respectively
+		     Use A and D respectively to turn left and right
+		     Use left mouse click to shoot
+		     The goal is to destroy your opponent, while avoiding their shots, as well as those from the turrets.
+
+- **Mini-Game 1-3**: Use W, A, S and D to move and to poke enemies/opponents
+		     The goal is to push the opponent off the field, while dodging the balls and bombs that threaten to knock you down
+
+
+- **Mini-Game 1-4**: Use A and D respectively to go left and right
+		     Hold down the left mouse click to charge force
+		     Release it to expel the force and to create a shock wave, which will make the ball move
+		     The goal is, like in volleyball, to knock the ball into the opponent's court.
+
+- **Mini-Game 1-5**: Use the mouse to point at a target
+		     Use left mouse click to shoot
+		     The goal is to shoot as many targets as possible.
+
+
+
+Thanks for playing **Another Recursion**! We hope you enjoy your adventure.
+
+---
+
+If you have any specific details about the game or additional sections you would like included, please let us know!
+
+The ElderBurried Team.

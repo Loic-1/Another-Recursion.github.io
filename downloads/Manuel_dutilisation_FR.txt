@@ -1,0 +1,75 @@
+## **Utilisation**
+
+Bienvenue dans ce manuel d'utilisation d'Another Recursion.
+Ce manuel détaillera toutes les connaissances nécessaires à l'utilisation et à la compréhension de cette application.
+
+Si le jeu n'est pas installé, veuillez vous référer au document "Manuel d'installation.txt"
+
+## ** Message du pare-feu et Fonction Administrateur**
+
+Dans le cas d'utilisation avec Windows, il est possible qu'une fenêtre s'ouvre pour vous demander les droits d'administrateur ou d'ouvrir certains ports du pare-feu, si ceci ne sont pas donnée ou ouvert respectivement, le joueur sur cet ordinateur ne pourra pas accéder à l’option "Create" qui permet de créer un salon hébergeur.
+
+## **Commandes**
+
+Tous les menus et les mini-jeux d'Another Recursion utiliseront les commandes citées ci-dessous :
+
+- **Déplacement** : WASD 
+- **Sauter** : Espace
+- **Action Spéciale** : Clic gauche de la souris
+
+
+## **Menus**
+
+La plupart des menus fonctionnent sous forme de boutons interactifs.
+Il n'est nécessaire que de cliquer sur ces boutons.
+
+Cependant, certains menus impliquent l'utilisation du clavier, pour entrer du texte.
+
+## **Multijoueur**
+
+Another Recursion est un jeu exclusivement en multijoueur online, nécessitant les joueurs à être dans des salons de jeu.
+
+Chaque joueur doit d'abord choisir une couleur, qui le permettra de ce différentier de l'autre.
+Il suffit pour cela de rentrer un nom ou pseudonyme quelconque dans la barre "Team Color", ou d'y entrer un code spécifique de couleur
+si voulu.
+
+
+Pour créer un salon, appuyer sur le bouton "Create", vous obtiendrez un code.
+Ce code doit être donné à votre adversaire, qui le rentrera dans la barre "Lobby Code", puis qui appuiera sur le bouton Join.
+Une fois, les 2 Joueurs dans le même salon (le créateur verra une seconde fois le message "a player as joined the lobby", et le joueur qui rejoint le salon verra le bouton "Start" apparaître), ils pourront lancer la partie en appuyant sur le bouton "Start" et choisir un mini-jeu spécifique à jouer, ou de jouer au mode "Random" qui fera défiler des mini-jeux aléatoire à la suite.
+
+## **Jeux**
+
+Les différents mini-jeux proposés par Another Recursion, sont très divers, mais tournent autour des 6 mêmes touches : 
+
+- **Mini-Jeu 1-1** : Utilisez A et D respectivement pour aller à gauche et à droite
+		     Utilisez Espace pour sauter
+		     Le but est de d'atteindre l'arrivée, située en hauteur, avant son adversaire, mais certains ennemis vous barrerons le 			chemins
+
+- **Mini-Jeu 1-2** : Utilisez W et S respectivement pour avancer et reculer
+		     Utilisez A et D respectivement pour tourner à gauche et à droite
+		     Utilisez le clic gauche de la souris pour tirer
+		     Le but est de détruire son adversaire, tout en évitant ses tirs, ainsi que ceux des tourelles
+
+- **Mini-Jeu 1-3** : Utilisez W, A, S et D pour se déplacer et pour poucer les ennemis / adversaires
+		     Le but est de poussez l'adversaire en dehors du terrain, tout en esquivant les ballons et les bombes qui menacent de 			vous faire tomber
+
+
+- **Mini-Jeu 1-4** : Utilisez A et D respectivement pour aller à gauche et à droite
+		     Rester appuyé sur le clic gauche de la souris pour charger
+		     Relâchez le pour expulser la force et créer une onde de choc qui fera bouger la balle
+		     Le but est, comme au Volley-ball, de faire tomber la balle dans le terrain de l'adversaire.
+
+- **Mini-Jeu 1-5** : Utilisez la souris pour pointer une cible
+		     Utilisez le clic gauche de la souris pour tirer
+		     Le but est de tirer sur un maximum de cible
+
+
+
+Merci de jouer à **Another Recursion** ! Nous espérons que vous apprécierez votre aventure.
+
+---
+
+Si vous avez des détails spécifiques sur le jeu ou des sections supplémentaires que vous souhaitez inclure, n'hésitez pas à nous le faire savoir !
+
+L'équipe ElderBurried.

@@ -1,0 +1,19 @@
+## **Installation**
+
+### **Installation Steps**
+
+1. Download the installation file from our official website: https://loic-1.github.io/Another-Recursion.github.io/index.html
+2. Double-click the installation file and follow the on-screen instructions.
+3. Once the installation is complete, launch the game via the icon created on your desktop, from the start menu or directly from
+the installed executable
+
+## **End of installation**
+
+Once all installation steps have been completed, please refer to the “User Manual.txt” document for more 
+information on how to play the game.
+
+## **Support**
+
+For any assistance, please contact us by email at contactElderberried@gmail.com.
+
+---
