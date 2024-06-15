@@ -4,12 +4,14 @@
 }
 
 :root {
-    --body-font-color: #FFFEFE;
-    --a-font-color: #FFFEFE;
+    --body-font-color: #05092e;
+    /*FFFEFE*/
+    --a-font-color: #05092e;
+    /*#05092e*/
 }
 
 body {
-    font-family: 'CustomFont', 'Franklin Gothic Medium';
+    font-family: 'CustomFont', 'Franklin Gothic Medium', Arial, Helvetica, sans-serif;
     font-size: large;
 }
 
@@ -48,6 +50,11 @@ a {
 
 
 /*PROJECT*/
+
+td,
+th {
+    color: #05092e;
+}
 
 .projectLinks a {
     text-decoration: none;

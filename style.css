@@ -14,12 +14,14 @@ body {
 }
 
 :root {
-    /*--nav-bg-color: #131213;*/
-    --nav-bg-color: #05092e;
-    /* Define a CSS variable for the navigation background color */
+    /*--nav-bg-color: #05092e;*/
+    --nav-bg-color: orange;
+    /* Define a CSS variable for the navigation background color yeah haha i know haha thx ;-) haha baby call me haha🤙🤙🤙*/
     /*--nav-bg-color-dark: #0e0d0e;*/
-    --nav-bg-color-dark: #05092e;
+    --nav-bg-color-dark: orange;
     --height: 20px;
+    /*--widthBorder: .lienDownloads.width chepa frr*/
+    --body-font-color: #05092e;
 }
 
 header,
@@ -192,7 +194,8 @@ main.collapsed {
 #banniere {
     width: 100%;
     outline: auto;
-    outline-color: white;
+    outline-color: var(--body-font-color);
+    /*white*/
 }
 
 .robot {
@@ -214,11 +217,12 @@ main.collapsed {
 table {
     width: 100%;
     border-collapse: collapse;
+    ;
 }
 
 th,
 td {
-    border: 1px solid white;
+    border: 1px solid var(--body-font-color);
     border-radius: 2px;
     padding: 8px;
     text-align: left;
@@ -227,11 +231,6 @@ td {
 td,
 th {
     background-color: var(--nav-bg-color);
-}
-
-td,
-th {
-    color: white;
 }
 
 tr {
@@ -256,7 +255,7 @@ tr {
     width: 30%;
     height: auto;
     outline: auto;
-    outline-color: white;
+    outline-color: var(--body-font-color);
 }
 
 
