@@ -15,13 +15,13 @@ body {
 
 :root {
     /*--nav-bg-color: #05092e;*/
-    --nav-bg-color: orange;
+    --nav-bg-color: #05092e;
     /* Define a CSS variable for the navigation background color yeah haha i know haha thx ;-) haha baby call me haha🤙🤙🤙*/
     /*--nav-bg-color-dark: #0e0d0e;*/
-    --nav-bg-color-dark: orange;
+    --nav-bg-color-dark: #05092e;
     --height: 20px;
     /*--widthBorder: .lienDownloads.width chepa frr*/
-    --body-font-color: #05092e;
+    --secondary-color: white;
 }
 
 header,
@@ -194,7 +194,7 @@ main.collapsed {
 #banniere {
     width: 100%;
     outline: auto;
-    outline-color: var(--body-font-color);
+    outline-color: var(--secondary-color);
     /*white*/
 }
 
@@ -222,7 +222,7 @@ table {
 
 th,
 td {
-    border: 1px solid var(--body-font-color);
+    border: 1px solid var(--secondary-color);
     border-radius: 2px;
     padding: 8px;
     text-align: left;
@@ -255,7 +255,7 @@ tr {
     width: 30%;
     height: auto;
     outline: auto;
-    outline-color: var(--body-font-color);
+    outline-color: var(--secondary-color);
 }
 
 

@@ -4,9 +4,9 @@
 }
 
 :root {
-    --body-font-color: #05092e;
+    --body-font-color: #FFFEFE;
     /*FFFEFE*/
-    --a-font-color: #05092e;
+    --a-font-color: #FFFEFE;
     /*#05092e*/
 }
 
@@ -53,7 +53,7 @@ a {
 
 td,
 th {
-    color: #05092e;
+    color: var(--a-font-color);
 }
 
 .projectLinks a {
