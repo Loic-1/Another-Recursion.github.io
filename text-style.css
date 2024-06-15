@@ -23,6 +23,11 @@ p {
     color: var(--body-font-color);
 }
 
+a {
+    text-decoration: none;
+    color: var(--a-font-color);
+}
+
 .sidebar a {
     color: var(--a-font-color);
 }
@@ -49,7 +54,7 @@ p {
     color: var(--a-font-color);
 }
 
-.projectLinks a:hover {
+.links a:hover {
     filter: brightness(0.8);
 }
 
