@@ -60,9 +60,9 @@ Les différents mini-jeux proposés par Another Recursion, sont très divers, ma
 		     Relâchez le pour expulser la force et créer une onde de choc qui fera bouger la balle
 		     Le but est, comme au Volley-ball, de faire tomber la balle dans le terrain de l'adversaire.
 
-- **Mini-Jeu 1-5** : Utilisez la souris pour pointer une cible
-		     Utilisez le clic gauche de la souris pour tirer
-		     Le but est de tirer sur un maximum de cible
+- **Mini-Jeu 1-5** : Utilisez A et D pour tourner
+		     Utilisez le clic droit pour tirer des projéctiles
+		     Le but est de tirée sur un maximum de projectiles / machines pour gagner des points, et tirer sur votre adversaire 			pour lui en faire perdre
 
 
 

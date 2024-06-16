@@ -60,9 +60,9 @@ The different mini-games offered by Another Recursion are very diverse, but revo
 		     Release it to expel the force and to create a shock wave, which will make the ball move
 		     The goal is, like in volleyball, to knock the ball into the opponent's court.
 
-- **Mini-Game 1-5**: Use the mouse to point at a target
-		     Use left mouse click to shoot
-		     The goal is to shoot as many targets as possible.
+- **Mini-Game 1-5**: Use A and D to turn
+		     Use right click to shoot projectiles
+		     The goal is to shoot as many projectiles/machines as possible to gain points, and shoot your opponent to make them 			lose points.
 
 
 
